@@ -7,7 +7,7 @@ var ctx = c.getContext("2d");
 var center = {x: size / 2, y: 20};
 var minSegmentHeight = 5;
 var groundHeight = size - 20;
-var color = "hsl(180, 80%, 80%)";
+var color = "hsl(40, 80%, 50%)";
 var roughness = 2;
 var maxDifference = size / 5;
 
