@@ -7,9 +7,9 @@ var ctx = c.getContext("2d");
 var center = {x: size / 2, y: 20};
 var minSegmentHeight = 5;
 var groundHeight = size - 20;
-var color = "hsl(40, 80%, 50%)";
+var color = "hsl(151, 84%, 44%)";
 var roughness = 2;
-var maxDifference = size / 5;
+var maxDifference = size / 750;
 
 ctx.globalCompositeOperation = "lighter";
 
@@ -25,7 +25,7 @@ function render() {
   ctx.globalCompositeOperation = "source-over";
   ctx.fillRect(0, 0, size, size);
   ctx.globalCompositeOperation = "lighter";
-  ctx.shadowBlur = 15;
+  ctx.shadowBlur = 100;
   var lightning = createLightning();
   ctx.beginPath();
   for (var i = 0; i < lightning.length; i++) {
