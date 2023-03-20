@@ -1,4 +1,4 @@
-var size = 500;
+var size = 700;
 var c = document.getElementById("canvas");
 c.width = size;
 c.height = size;
