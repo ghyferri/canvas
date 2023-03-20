@@ -25,7 +25,7 @@ function render() {
   ctx.globalCompositeOperation = "source-over";
   ctx.fillRect(0, 0, size, size);
   ctx.globalCompositeOperation = "lighter";
-  ctx.shadowBlur = 100;
+  ctx.shadowBlur = 20;
   var lightning = createLightning();
   ctx.beginPath();
   for (var i = 0; i < lightning.length; i++) {
