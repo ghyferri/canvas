@@ -1,9 +1,9 @@
 body {
     background-color: rgb(27, 27, 27);
+    background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   }
   
   canvas {
-    background-color: hsl(0, 0%, 10%);
   }
 
   .center{

@@ -18,7 +18,7 @@ ctx.shadowColor = color;
 
 ctx.fillStyle = color;
 ctx.fillRect(0, 0, size, size);
-ctx.fillStyle = "hsla(0, 0%, 10%, 0.2)";
+ctx.fillStyle = "hsla(0, 0%, 10%, 0.0)";
 
 function render() {
   ctx.shadowBlur = 0;
